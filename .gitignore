@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# uploaded syllabus files (local dev storage)
+/uploads
+
+# kiro (local specs / IDE)
+.kiro/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+#Theme 
+THEME_IMPLEMENTATION.md
+IMPLEMENTATION_SUMMARY.md
+QUIZ_SYSTEM_IMPLEMENTATION.md
+
+# Temporary documentation (should not be committed)
+*IMPLEMENTATION*.md
+*REDESIGN*.md
+*BUILD_FIX*.md
+*BEFORE_AFTER*.md
+CLAUDE.md
+AGENTS.md
+SECURITY_AUDIT_REPORT.md
+SECURITY_IMPROVEMENTS_APPLIED.md
+TASK_1.2_SUMMARY.md
+CLEANUP_SUMMARY.md
+CLEANUP_SUMMARY.md
+EMAIL_SYSTEM_AUDIT_COMPLETE.md
+EMAIL_TROUBLESHOOTING_GUIDE.md
+TASK_6_COMPLETE.md
+
+
+
+#error
+BUILD_FIX_SUMMARY.md.
